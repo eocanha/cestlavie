@@ -1,0 +1,349 @@
+id: S
+C'est La Vie! A Game of Social Life is an empathy-based privilege and oppression awareness activity that can be used to help players engage in difficult dialogues surrounding the issues of social inequality, privilege, and oppression.
+The activity builds on a role-playing game that explores multiple dimensions of poverty. The poverty simulation board game examined inequality across multiple domains, including access to social power, health care, housing, education, and occupational success throughout the lifespan. The simulation also examines the impact of inequality on health and well-being.
+The player is assigned a unique game character profile and has to take decisions to try to achieve the best possible life conditions as the game progresses. On each stage of the game, the player is presented with different options (some of them unavailable due to the circumstances). Just press the button of the option you want to choose.
+In some of the stages, the player can get into debt to get extra money. You can press the DEBT button at any moment before chosing and option for that stage.
+A good life depends on the mix of pure chance and good decisions... when you can take them. Best luck!
+[A] Continue
+---
+id: D1
+Decision 1: Neighborhood
+Your character needs a place to live…
+[A] For 50$ you can purchase a house in Neighborhood A, a gated community with great schools, nice parks, and private security. Gain 4 wellness credits.
+[B] For 30$ you can purchase a house in Neighborhood B with great schools, nice parks, medical facility, and a nice recreation center. Gain 3 wellness credits.
+[C] For 20$ you can rent or purchase an apartment or townhouse in Neighborhood C. OK schools, fun mix of people, good social life. Gain 2 wellness credits.
+[D] For 5$ you can rent an apartment in Neighborhood D with OK schools, OK infrastructure, and relatively low levels of crime. Gain 1 wellness credit.
+[E] For 0$ default to Neighborhood E with failing schools, poor infrastructure, unsafe conditions, and high levels of crime. Gain 0 wellness credits.
+[DEBT] Use a loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D2A
+Decision 2: School
+Your assigned school district depends on your neighborhood. If you do not want to select your neighborhood school, you can pay the tuition to attend a private school (A or C). Or you can use bonuses to gain access to another public school (B or D) through a “school choice” program.
+[A] School A: gives you 4 experience credits, assigned by default to your neighborhood A.
+[B] School B: gives you 3 experience credits, needs 3 bonus points.
+[C] School C: gives you 2 experience credits, needs 5$.
+[D] School D: gives you 1 experience credits, needs 1 bonus point.
+[E] School E: gives no experience credits, needs 1$.
+[DEBT] Use a loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D2B
+Decision 2: School
+Your assigned school district depends on your neighborhood. If you do not want to select your neighborhood school, you can pay the tuition to attend a private school (A or C). Or you can use bonuses to gain access to another public school (B or D) through a “school choice” program.
+[A] School A: gives you 4 experience credits, needs 20$.
+[B] School B: gives you 3 experience credits, assigned by default to your neighborhood B.
+[C] School C: gives you 2 experience credits, needs 5$.
+[D] School D: gives you 1 experience credits, needs 1 bonus point.
+[E] School E: gives no experience credits, needs 1$.
+[DEBT] Use a loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D2C
+Decision 2: School
+Your assigned school district depends on your neighborhood. If you do not want to select your neighborhood school, you can pay the tuition to attend a private school (A or C). Or you can use bonuses to gain access to another public school (B or D) through a “school choice” program.
+[A] School A: gives you 4 experience credits, needs 20$.
+[B] School B: gives you 3 experience credits, needs 3 bonus points.
+[C] School C: gives you 2 experience credits, assigned by default to your neighborhood C.
+[D] School D: gives you 1 experience credits, needs 1 bonus point.
+[E] School E: gives no experience credits, needs 1$.
+[DEBT] Use a loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D2D
+Decision 2: School
+Your assigned school district depends on your neighborhood. If you do not want to select your neighborhood school, you can pay the tuition to attend a private school (A or C). Or you can use bonuses to gain access to another public school (B or D) through a “school choice” program.
+[A] School A: gives you 4 experience credits, needs 20$.
+[B] School B: gives you 3 experience credits, needs 3 bonus points.
+[C] School C: gives you 2 experience credits, needs 5$.
+[D] School D: gives you 1 experience credits, assigned by default to your neighborhood D.
+[E] School E: gives no experience credits, needs 1$.
+[DEBT] Use a loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D2E
+Decision 2: School
+Your assigned school district depends on your neighborhood. If you do not want to select your neighborhood school, you can pay the tuition to attend a private school (A or C). Or you can use bonuses to gain access to another public school (B or D) through a “school choice” program.
+[A] School A: gives you 4 experience credits, needs 20$.
+[B] School B: gives you 3 experience credits, needs 3 bonus points.
+[C] School C: gives you 2 experience credits, needs 5$.
+[D] School D: gives you 1 experience credits, needs 1 bonus point.
+[E] School E: gives no experience credits, assigned by default to your neighborhood E.
+[DEBT] Use a loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D3
+Decision 3: First day
+It’s your first day at a new school…
+[A] If part of Group V or W meet several people just like you. Gain 1 wellness credit.
+[B] If you have 3 or more existing wellness credits, join a sports team – Gain 1 wellness credit.
+[C] If you have 3 or more existing experience credits, join an academic group – Gain 1 wellness credit.
+[D] For 1 bonus use your charisma to make new friends. Gain 1 wellness credit.
+[E] None of the above. Gain 0 wellness credits.
+---
+id: D4
+Decision 4: Focus your time
+[A] Healthy living. Gain 1 wellness credit.
+[B] Study a lot. Gain 1 experience credit.
+[C] Part time work. Gain 3$.
+[D] Build leadership skills. Gain 1 bonus.
+[E] Sacrifice 3 wellness credits to earn 5$.
+---
+id: D5.1
+Decision 5: Social Media (I)
+For a class assignment, you are asked to write a paper about the causes of poverty and crime. You start to pay attention to what the media, politicians, and community leaders are saying about the issue.
+[A] If you are a member of Group V, the dialogue is driven by members of your group who are talked about favorably. Gain 1 wellness credit.
+[B] If you are a member of Group N or P, you hear members of your group being stereotyped and criticized under the guise of “family values”. Lose 2 wellness credits.
+[C] If you are a member of Group Q or S politicians suggest that members of your group are lazy and living off the social system. Lose 2 wellness credits.
+[D] If both options B and C apply to you (that is you are a member of Group N or P and a member of Group Q or S), lose 3 wellness credits.
+---
+id: D5.2
+Decision 5: Social Media (II)
+[A] Accept your wellness gain/loss.
+[B] Buffer any wellness losses by using one bonus card.
+---
+id: D6VW
+Decision 6: College Prep
+Get into university preparatory classes and gain 3 experience credits, but only if you're eligible. Your choices and eligibility depend on your social group.
+[A] You had attended School A or School B.
+[B] You have 2+ existing experience credits.
+[C] You use 1 bonus to convince your counselor.
+[D] You spend 5$ on a tutor and prep courses.
+[E] None of the above.
+[DEBT] Use a loan: Borrow 1-9$ + 2$ interest; Borrow 10-16$ + 4$ interest.
+---
+id: D6S
+Decision 6: College Prep
+Get into university preparatory classes and gain 3 experience credits, but only if you're eligible. Your choices and eligibility depend on your social group.
+[A] You attend School A or School B.
+[B] You have 4+ existing experience credits.
+[C] You use 3 bonuses to convince your counselor.
+[D] You spend 15$ on a tutor and prep courses.
+[E] None of the above. Gain 0 experience credits.
+[DEBT] Use a loan: Borrow 1-9$ + 2$ interest; Borrow 10-16$ + 4$ interest.
+---
+id: D6
+Decision 6: College Prep
+Get into university preparatory classes and gain 3 experience credits, but only if you're eligible. Your choices and eligibility depend on your social group.
+[A] You attend School A or School B.
+[B] You have 3+ existing experience credits.
+[C] You use 2 bonuses to convince your counselor.
+[D] You spend 15$ on a tutor and prep courses.
+[E] None of the above. Gain 0 experience credits.
+[DEBT] Use a loan: Borrow 1-9$ + 2$ interest; Borrow 10-16$ + 4$ interest.
+---
+id: CV1
+Collective Vote 1
+Business leaders are about to make a decision that could affect the health of your neighborhood. Use 2 bonuses to make your voice heard:
+[A] Neighborhoods A & B gain 3 wellness credits, all other neighborhoods lose 1 wellness credit.
+[B] Neighborhood C gains 3 wellness credits, all other neighborhoods lose 1 wellness credit.
+[C] Neighborhood D gains 3 wellness credits, all other neighborhoods lose 1 wellness credit.
+[D] Neighborhood E gains 3 wellness credits, all other neighborhoods lose 1 wellness credit.
+[E] No vote (if you do not want to use 2 bonuses).
+---
+id: D7VWA
+Decision 7: Trouble
+You are out with a group of people when one of them shoplifts. Now you are all under suspicion.
+[A] Mistakes happen. All charges are eventually dropped. Lose 1 wellness credit for the inconvenience.
+---
+id: D7Q
+Decision 7: Trouble
+You are out with a group of people when one of them shoplifts. Now you are all under suspicion.
+[B] Spend 15$ to hire a legal advocate who helps you get the charges dropped.
+[C] Use 3 bonuses to “call in a favor” to get the charges dropped.
+[D] Exchange 3 experience credits to strike a plea bargain.
+[E] Fight the charges, but lose 6 health credits for the stress and worry.
+[DEBT] Use a credit card: Borrow 1-9$ + 2$ interest; Borrow 10-16$ + 4$ interest.
+---
+id: D7
+Decision 7: Trouble
+You are out with a group of people when one of them shoplifts. Now you are all under suspicion.
+[B] Spend 10$ to hire a legal advocate who helps you get the charges dropped.
+[C] Use 2 bonuses to “call in a favor” to get the charges dropped.
+[D] Exchange 2 experience credits to strike a plea bargain.
+[E] Fight the charges, but lose 4 health credits for the stress and worry.
+[DEBT] Use a credit card: Borrow 1-9$ + 2$ interest; Borrow 10-16$ + 4$ interest.
+---
+id: D8
+Decision 8: Spend your time
+[A] Rest, relax, and recreate. Gain 1 wellness credit.
+[B] Unpaid internship! Exchange 5$ to gain 3 experience credits.
+[C] Part time work. Gain 3$.
+[D] Build your leadership skills. Gain 1 bonus.
+[E] Give up 3 experience credits to drop out of school and work full time, gain 5$.
+[DEBT] Use a credit card: Borrow 1-9$ + 2$ interest.
+---
+id: D9AB
+Decision 9: Contamination
+An environmental contaminant that causes severe respiratory illness is discovered in the building materials of some neighborhoods.
+[A] Your neighborhood is not affected! There is no loss.
+---
+id: D9H
+Decision 9: Contamination
+An environmental contaminant that causes severe respiratory illness is discovered in the building materials of some neighborhoods.
+[B] Your body is well enough to fight the illness. You are immune. There is no loss.
+---
+id: D9U
+Decision 9: Contamination
+An environmental contaminant that causes severe respiratory illness is discovered in the building materials of some neighborhoods.
+[C] Use 2 bonuses to use employee-provided medical leave while you recover from illness.
+[D] Pay 10$ in associated costs while you recover from illness.
+[E] Lose 6 wellness credits (or gain illness credits) and live with a chronic disorder.
+[DEBT] Use a credit card: Borrow 1-9$ + 2$ interest; Borrow 10-16$ + 4$ interest.
+---
+id: D10E8
+Decision 10: After Graduation
+You have reached early adulthood. What will you do?
+[A] Go to Grad school and get 4 experience points. Costs 5$.
+[B] Go to University and get 3 experience points. No cost.
+[C] Go to College and get 2 experience points. No cost.
+[D] Become Apprentice and get 1 experience point and 5$.
+[E] Become Worker and get 5$.
+[DEBT] Take a student loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D10E6
+Decision 10: After Graduation
+You have reached early adulthood. What will you do?
+[A] Go to Grad school and get 4 experience points. Costs 10$.
+[B] Go to University and get 3 experience points. Costs 5$
+[C] Go to College and get 2 experience points. No cost.
+[D] Become Apprentice and get 1 experience point and 5$.
+[E] Become Worker and get 5$.
+[DEBT] Take a student loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D10E4
+Decision 10: After Graduation
+You have reached early adulthood. What will you do?
+[A] Go to Grad school and get 4 experience points. Costs 20$.
+[B] Go to University and get 3 experience points. Costs 10$
+[C] Go to College and get 2 experience points. Costs 5$.
+[D] Become Apprentice and get 1 experience point and 5$. Costs 1 bonus point.
+[E] Become Worker and get 5$.
+[DEBT] Take a student loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D10E2
+Decision 10: After Graduation
+You have reached early adulthood. What will you do?
+[B] Go to University and get 3 experience points. Costs 20$
+[C] Go to College and get 2 experience points. Costs 10$.
+[D] Become Apprentice and get 1 experience point and 5$. Costs 2 bonus point.
+[E] Become Worker and get 5$.
+[DEBT] Take a student loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: D10E0
+Decision 10: After Graduation
+You have reached early adulthood. What will you do?
+[C] Go to College and get 2 experience points. Costs 20$.
+[D] Become Apprentice and get 1 experience point and 5$. Costs 3 bonus point.
+[E] Become Worker and get 5$.
+[DEBT] Take a student loan: Borrow 1-9$ + 1$ interest; Borrow 10-18$ + 2$ interest.
+---
+id: CV2
+Collective Vote 2
+It is election time. IF you are eligible to vote, spend 2$ OR 1 bonus points to secure the proper voting documents and to advocate for your right to vote. (OR, lose out on the chance to vote).
+[N] Don't vote.
+[A] Candidate A wants to increase the minimum wage. This candidate advocates an increase in taxes for the wealthy to pay for the increase. If this candidate wins, those with >20$ will lose 5$. Those with <5$ will gain 3$.
+[B] Candidate B wants to protect the country from government involvement. This candidate will cut taxes and decrease government programs. If this candidate wins, those with >15$ will gain 3$. Those with <5$ will lose 3 wellness credits.
+[C] Candidate C is concerned about creating equal opportunity. If this candidate wins, everyone in the game will lose all of their bonus credits ensuring that no one in the game receives special favors, above and beyond the experience they actually have.
+[D] Candidate D is concerned about reparations for past oppression. If this candidate wins, members of Group P, Q, and S will gain 1 bonus credit.
+[E] Candidate E is happy with the status quo. If this candidate wins, everything in the game will stay the same as it currently is.
+---
+id: D11
+Decision 11: Recreation Time
+[A] Rest, relax, and recreate. Gain 1 wellness credit.
+[B] Internship. Gain 1 experience credit.
+[C] Part time work. Gain 3$.
+[D] Build your leadership skills, network. Gain 1 bonus point.
+[E] Sacrifice 3 wellness credits to earn 5$.
+---
+id: D12E13
+Decision 12: Career
+Depending on your education and experience credits, some opportunities are automatically open to you. Other opportunities may be out of reach to you. Other opportunities require that you use your bonuses to make the right connections.
+[A] Become a Professional. Get 20$ and 3 wellness points. Costs 1 bonus point.
+[B] Become a Skilled worker. Get 10$ and 2 wellness points.
+[C] Become a White Collar worker. Get 5$ and 1 wellness points.
+[D] Become a Blue Collar worker. Get 2$.
+[E] Become a Wage worker. Get 1$.
+---
+id: D12E10
+Decision 12: Career
+Depending on your education and experience credits, some opportunities are automatically open to you. Other opportunities may be out of reach to you. Other opportunities require that you use your bonuses to make the right connections.
+[A] Become a Professional. Get 20$ and 3 wellness points. Costs 2 bonus points.
+[B] Become a Skilled worker. Get 10$ and 2 wellness points. Costs 1 bonus points.
+[C] Become a White Collar worker. Get 5$ and 1 wellness points.
+[D] Become a Blue Collar worker. Get 2$.
+[E] Become a Wage worker. Get 1$.
+---
+id: D12E7
+Decision 12: Career
+Depending on your education and experience credits, some opportunities are automatically open to you. Other opportunities may be out of reach to you. Other opportunities require that you use your bonuses to make the right connections.
+[A] Become a Professional. Get 20$ and 3 wellness points. Costs 3 bonus points.
+[B] Become a Skilled worker. Get 10$ and 2 wellness points. Costs 2 bonus points.
+[C] Become a White Collar worker. Get 5$ and 1 wellness points. Costs 1 bonus point.
+[D] Become a Blue Collar worker. Get 2$.
+[E] Become a Wage worker. Get 1$.
+---
+id: D12E4
+Decision 12: Career
+Depending on your education and experience credits, some opportunities are automatically open to you. Other opportunities may be out of reach to you. Other opportunities require that you use your bonuses to make the right connections.
+[B] Become a Skilled worker. Get 10$ and 2 wellness points. Costs 3 bonus points.
+[C] Become a White Collar worker. Get 5$ and 1 wellness points. Costs 2 bonus points.
+[D] Become a Blue Collar worker. Get 2$. Costs 1 bonus point.
+[E] Become a Wage worker. Get 1$.
+---
+id: D12E0
+Decision 12: Career
+Depending on your education and experience credits, some opportunities are automatically open to you. Other opportunities may be out of reach to you. Other opportunities require that you use your bonuses to make the right connections.
+[C] Become a White Collar worker. Get 5$ and 1 wellness points. Costs 3 bonus points.
+[D] Become a Blue Collar worker. Get 2$. Costs 1 bonus point. Costs 2 bonus points.
+[E] Become a Wage worker. Get 1$.
+---
+id: D13
+Decision 13: Illness strikes…
+[A] If you have 4 or more existing wellness credits, you recover quickly. No loss.
+[B] Use 1 bonus to use employee-provided sick days to take a few days off for recovery.
+[C] Pay 5$ to pay for medication and medical costs to help you recover from illness.
+[D] Lose 2 experience credits as you miss work to recover from your illness.
+[E] Carry on, but lose four wellness credits (or gain illness) as your condition worsens.
+[DEBT] Use a credit card: Borrow 1-9$ + 2$ interest; Borrow 10-16$ + 4$ interest.
+---
+id: D14
+Decision 14: Dating
+[A] If you are a member of Group M, dating is not always easy, but you almost never fear for your safety. Gain two wellness credits.
+[B] If you are a member of Group N (but not S or P), safety is often in the back of your head when dating. Lose one wellness credit.
+[C] If you are a member of Group S (but not P), it is difficult to find dating partners and you are often not taken serious as a sexual person. Lose three wellness credits.
+[D] If you are a member of Group P (but not S), you often do not feel safe expressing your affection in public. Lose three wellness credits.
+[E] If you are a member of Group S and P, lose 5 wellness credits.
+---
+id: D15
+Decision 15: Promotion!
+It’s promotion time. In order to gain 5$ and 3 experience credits you will need to network with those making the decision…
+[A] If you are a Member of Group V, use 1 bonus card to network and gain the promotion.
+[B] If you are a member of one of the following: Group N or P or Q (but not group S), use 2 bonus cards to network and gain the promotion.
+[C] If you are a member of two or more of the following: Group N or P or Q (but not group S), use 3 bonus cards to network and gain the promotion.
+[D] If you are a member of group S, use 4 bonus cards to network with the people who will make the decision.
+[E] Don’t have the bonus cards? Miss out on a promotion. No gain.
+---
+id: CV3
+The organization that you work for is developing a new training program. If you have more than 9 experience credits vote for one of the following:
+[N] Don't vote.
+[A] Option A is for middle level management. Individuals with 6 or more experience credits will earn 5$ and 2 experience credits.
+[B] Option B is a training program to advance the leadership skills of members of Group N. Members of Group N will earn 5$ and 2 experience credits.
+[C] Option C is a training program to advance the leadership skills of members of Group P. Members of Group P will earn 5$ and 2 experience credits.
+[D] Option D is a training program to advance the leadership skills of members of Group Q. Members of Group Q will earn 5$ and 2 experience credits.
+[E] Option E is a training program to advance the leadership skills of members of Group S. Members of Group S will earn 5$ and 2 experience credits.
+---
+id: E1
+Game over! What’s your “quality of life”?
+Each unspent $ adds 1 point (economic prosperity)
+Each unused bonus adds 1 point (prestige)
+Each maintained wellness credit adds 1 point (wellness)
+Each maintained experience credit adds 1 point (experience)
+Financial debt and illness count against the point total (subtract the total amount of debt and illness from any positive gains).
+[A] Continue
+---
+id: E2
+Social Groups Decoded
+V = heterosexual, White, cisgender male, abled, not poor
+W = heterosexual, White, cisgender female, abled, not poor
+M = cisgendered, heterosexual male
+N = female
+P = lesbian, gay, bisexual, transgendered, transsexual
+Q = racial/ethnic minority
+S = physical, cognitive, mental, sensory, emotional, or developmental disability –and/or- English as a second language (ESL)
+[A] Play again
+---

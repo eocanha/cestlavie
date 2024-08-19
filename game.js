@@ -25,6 +25,7 @@ function startGame() {
   illness: 0,
   healthToCommit: 0, // Used in D5.1 and D5.2
   progress: 0,
+  snarkyComment: "",
   disabledOptions: [],
  };
  stages = {};
@@ -52,7 +53,10 @@ function displayState() {
  });
  var stage = stages[state.stageId];
  element = document.getElementById("decision");
- element.innerHTML = stage.description;
+ var description = stage.description;
+ if (state.snarkyComment)
+  description += "<br/>" + state.snarkyComment;
+ element.innerHTML = description;
  element = document.getElementById("options");
  var optionsHTML = "";
  Object.getOwnPropertyNames(stage.options).forEach(function(id) {
@@ -1437,10 +1441,19 @@ function playAction(button) {
    state.stageId = "E1";
    state.progress++;
    state.total = state.money + state.bonuses + state.wellness + state.experience
-   - state.debt - state.illness;
+    - state.debt - state.illness;
+   if (state.total < 0)
+    state.snarkyComment = "A stranger passes near you, gives you a despective look and says: You're an outcast. You don't even try to do a minimum to try to integrate in our society.";
+   else if (state.total < 10)
+    state.snarkyComment = "A stranger passes near you, gives you a condescending look and says: It might be that you've taken bad decisions in life. You're such a lazy person. It must have been that you haven't worked hard enough to be successful in life.";
+   else if (state.total < 30)
+    state.snarkyComment = "A stranger passes near you and doesn't even look to you. \"Just a piece more of our society\", they think, unaware about if you've reached your position because of effort or because of privilege, as they continue their way.";
+   else
+    state.snarkyComment = "A stranger passes near you, looks at you in admiration and says: See? Anybody can have a good life if they make a little bit of effort to get there!";
    break;
   case "E1":
    state.stageId = "E2";
+   state.snarkyComment = "";
    state.progress++;
    break;
   case "E2":

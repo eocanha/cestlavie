@@ -1,4 +1,5 @@
 const enableExtras = false;
+const enableSnarkyComment = false;
 
 var state, stages, stateHistory;
 
@@ -59,16 +60,21 @@ function displayState() {
  element.innerHTML = description;
  element = document.getElementById("options");
  var optionsHTML = "";
+ optionsHTML += "<div class=\"optionsgrid\">";
  Object.getOwnPropertyNames(stage.options).forEach(function(id) {
-  optionsHTML += "<button id=\"" + id + "\""
-   + (state.disabledOptions.includes(id) ? " disabled" : "")
-   + " onclick=\"javascript: playAction(this)\"/>"
-   + id + "</button> "
-   + stage.options[id] + "<br/>\n";
+  optionsHTML += "<div class=\"optionscellbutton\"><div id=\"" + id + "\""
+   + (state.disabledOptions.includes(id) ? " class=\"disabled\""
+     : " onclick=\"javascript: playAction(this)\"") + ">"
+   + id + "</div></div><div class=\"optionscelltext\">"
+   + stage.options[id] + "</div>";
  });
+ if (enableExtras) {
+  optionsHTML += "<div class=\"optionscellbutton\"><div id=\"undo\""
+  + " onclick=\"javascript: undo(this)\"/>UNDO</div></div><div class=\"optionscelltext\">"
+  + "Undo the last decision made</div>";
+ }
+ optionsHTML += "</div>";
  element.innerHTML = optionsHTML;
- element = document.getElementById("extras");
- element.style.display = enableExtras ? "" : "none";
 }
 
 function loadProfile(id, callback) {
@@ -1442,14 +1448,16 @@ function playAction(button) {
    state.progress++;
    state.total = state.money + state.bonuses + state.wellness + state.experience
     - state.debt - state.illness;
-   if (state.total < 0)
-    state.snarkyComment = "A stranger passes near you, gives you a despective look and says: You're an outcast. You don't even try to do a minimum to try to integrate in our society.";
-   else if (state.total < 10)
-    state.snarkyComment = "A stranger passes near you, gives you a condescending look and says: It might be that you've taken bad decisions in life. You're such a lazy person. It must have been that you haven't worked hard enough to be successful in life.";
-   else if (state.total < 30)
-    state.snarkyComment = "A stranger passes near you and doesn't even look to you. \"Just a piece more of our society\", they think, unaware about if you've reached your position because of effort or because of privilege, as they continue their way.";
-   else
-    state.snarkyComment = "A stranger passes near you, looks at you in admiration and says: See? Anybody can have a good life if they make a little bit of effort to get there!";
+   if (enableSnarkyComment) {
+    if (state.total < 0)
+     state.snarkyComment = "A stranger passes near you, gives you a despective look and says: You're an outcast. You don't even try to do a minimum to try to integrate in our society.";
+    else if (state.total < 10)
+     state.snarkyComment = "A stranger passes near you, gives you a condescending look and says: It might be that you've taken bad decisions in life. You're such a lazy person. It must have been that you haven't worked hard enough to be successful in life.";
+    else if (state.total < 30)
+     state.snarkyComment = "A stranger passes near you and doesn't even look to you. \"Just a piece more of our society\", they think, unaware about if you've reached your position because of effort or because of privilege, as they continue their way.";
+    else
+     state.snarkyComment = "A stranger passes near you, looks at you in admiration and says: See? Anybody can have a good life if they make a little bit of effort to get there!";
+   }
    break;
   case "E1":
    state.stageId = "E2";

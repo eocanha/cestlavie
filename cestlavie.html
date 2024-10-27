@@ -1,40 +1,48 @@
+<!DOCTYPE html>
 <html>
 <head>
  <title>C’est La Vie: The Game of Social Life</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="styles.css">
  <script src="game.js"></script>
  <meta charset="UTF-8">
 </head>
 <body onload="javascript:init();">
  <h1>C’est La Vie: The Game of Social Life</h1>
- <div id="sheet">
-  <span class="tooltip">Your game id: <span class="tooltiptext">Unique identified of your character profile. There are 64 different profiles in this game.</span></span> <span id="id"></span><br/>
-  <span class="tooltip">Total: <span class="tooltiptext">At the end of the game you will record your total points here.</span></span> <span id="total"></span><br/>
-  <span class="tooltip">Game progress: <span class="tooltiptext">Displays your progress through the 16 stages of the game.</span></span> <span id="progress"></span>/21<br/>
-  <br/>
-  <span class="tooltip">Your character profile:<span class="tooltiptext">Your profile describes your character’s gender and sexual orientation, race/ethnicity, citizenship status, special conditions and disabilities, money, bonuses, and voting status.</span></span><br/>
-  <span id="profile"></span><br/>
-  <br/>
-  <span class="tooltip">Vote: <span class="tooltiptext">Determines whether or not your character is eligible to vote in elections.</span></span> <span id="vote"></span><br/>
-  <span class="tooltip">Social groups: <span class="tooltiptext">Your character is associated with one or more social groups. These groups represent various social categories related to race (V, W, and Q), gender (V, W, M, N), sexual orientation (V, W, P), and ability/disability (V, W, S). The exact nature of these codes will be explained at the end of the game. Membership in various groups may affect the choices available to you during game play.</span></span> <span id="social"></span><br/>
-  <span class="tooltip">Neighborhood: <span class="tooltiptext">Will be determined during game play.</span></span> <span id="neighborhood"></span><br/>
-  <span class="tooltip">School: <span class="tooltiptext">Will be determined during game play.</span></span> <span id="school"></span><br/>
-  <span class="tooltip">Money: <span class="tooltiptext">Each money unit ($) is currency that can be used to make purchases. You can earn more money under some circumstances.</span></span> <span id="money"></span><br/>
-  <span class="tooltip">Debt: <span class="tooltiptext">In some situations (but not all), you may be able to use credit or a loan to make a purchase – however, interest penalties will apply. As you gain money in the game, you will need to use this money to pay off your debt. Money cannot be gained until all debt is paid off. You cannot be more than 20$ in debt at any point in time.</span></span> <span id="debt"></span><br/>
-  <span class="tooltip">Bonuses: <span class="tooltiptext">Bonuses represent favours you can ask to other people. They're accounted in a similar way to money.</span></span> <span id="bonuses"></span><br/>
-  <span class="tooltip">Experience: <span class="tooltiptext">Represents your education.</span></span> <span id="experience"></span><br/>
-  <span class="tooltip">Wellness: <span class="tooltiptext">Represents your positive health.</span></span> <span id="wellness"></span><br/>
-  <span class="tooltip">Illness: <span class="tooltiptext">Anytime that you experience negative wellness credits (you have lost more wellness credits than you have acquired), these negative wellness credits will be reflected on your score card as illness. One must overcome illness before benefitting from wellness.</span></span> <span id="illness"></span><br/>
- <div/>
- <hr/>
- <div id="decision">
+ <div id="sheet" class="sheet">
+  <div class="statusgrid">
+   <div class="statuscell1">
+    <span class="label tooltip">Your game id: <span class="tooltiptext">Unique identified of your character profile. There are 64 different profiles in this game.</span></span> <span id="id"></span><br/>
+    <span class="label tooltip">Total: <span class="tooltiptext">At the end of the game you will record your total points here.</span></span> <span id="total"></span><br/>
+   </div>
+   <div class="statuscell2">
+    <span class="label tooltip">Game progress: <span class="tooltiptext">Displays your progress through the 16 stages of the game.</span></span> <span id="progress"></span>/21<br/>
+   </div>
+   <div class="statuscell3">
+    <span class="label tooltip">Your character profile:<span class="tooltiptext">Your profile describes your character’s gender and sexual orientation, race/ethnicity, citizenship status, special conditions and disabilities, money, bonuses, and voting status.</span></span><br/>
+    <span id="profile"></span>
+   </div>
+   <div class="statuscell4">
+    <span class="label tooltip">Vote: <span class="tooltiptext">Determines whether or not your character is eligible to vote in elections.</span></span> <span id="vote"></span><br/>
+    <span class="label tooltip">Social groups: <span class="tooltiptext">Your character is associated with one or more social groups. These groups represent various social categories related to race (V, W, and Q), gender (V, W, M, N), sexual orientation (V, W, P), and ability/disability (V, W, S). The exact nature of these codes will be explained at the end of the game. Membership in various groups may affect the choices available to you during game play.</span></span> <span id="social"></span><br/>
+    <span class="label tooltip">Neighborhood: <span class="tooltiptext">Will be determined during game play.</span></span> <span id="neighborhood"></span><br/>
+    <span class="label tooltip">School: <span class="tooltiptext">Will be determined during game play.</span></span> <span id="school"></span><br/>
+    <span class="label tooltip">Money: <span class="tooltiptext">Each money unit ($) is currency that can be used to make purchases. You can earn more money under some circumstances.</span></span> <span id="money"></span><br/>
+   </div>
+   <div class="statuscell5">
+    <span class="label tooltip">Debt: <span class="tooltiptext">In some situations (but not all), you may be able to use credit or a loan to make a purchase – however, interest penalties will apply. As you gain money in the game, you will need to use this money to pay off your debt. Money cannot be gained until all debt is paid off. You cannot be more than 20$ in debt at any point in time.</span></span> <span id="debt"></span><br/>
+    <span class="label tooltip">Bonuses: <span class="tooltiptext">Bonuses represent favours you can ask to other people. They're accounted in a similar way to money.</span></span> <span id="bonuses"></span><br/>
+    <span class="label tooltip">Experience: <span class="tooltiptext">Represents your education.</span></span> <span id="experience"></span><br/>
+    <span class="label tooltip">Wellness: <span class="tooltiptext">Represents your positive health.</span></span> <span id="wellness"></span><br/>
+    <span class="label tooltip">Illness: <span class="tooltiptext">Anytime that you experience negative wellness credits (you have lost more wellness credits than you have acquired), these negative wellness credits will be reflected on your score card as illness. One must overcome illness before benefitting from wellness.</span></span> <span id="illness"></span><br/>
+   </div>
+  </div>
  </div>
- <hr/>
- <div id="options">
+ <div id="decision" class="decision">
  </div>
- <div id="extras">
-  <hr/>
-  <button id="undo" onclick="javascript: undo();">Undo</button>
+ <div id="options" class="options">
  </div>
 </body>
 </html>

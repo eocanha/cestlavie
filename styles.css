@@ -1,21 +1,37 @@
+body {
+ font-family: "EB Garamond", serif;
+ font-optical-sizing: auto;
+ font-weight: normal;
+ font-style: normal;
+ padding-left: 10pt;
+ padding-right: 10pt;
+ margin-left: 0pt;
+ margin-right: 0pt;
+}
+
+.label {
+ font-weight: bold;
+}
+
 .tooltip {
  position: relative;
- display: inline-block;
  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
+ font-weight: normal;
+ font-size: 150%;
  visibility: hidden;
  background-color: black;
  color: #fff;
  text-align: center;
- border-radius: 6px;
- padding: 10px 10px;
+ border-radius: 20pt;
+ padding: 10pt 10pt;
 
- width: 300px;
- bottom: 100%;
- left: 50%;
- margin-left: 0px; /* Use half of the width, to center the tooltip */
+ width: 500pt;
+ top: 50pt;
+ left: 0pt;
+ margin-left: 0pt; /* Use half of the width, to center the tooltip */
 
  /* Position the tooltip */
  position: absolute;
@@ -26,5 +42,123 @@
  visibility: visible;
 }
 
-.tooltip .tooltiptext {
+.sheet {
+}
+
+.statusgrid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 10px;
+ width: 90%;
+ border: solid black 2px;
+ padding: 30pt;
+}
+
+.statuscell3 {
+ grid-column-start: 1;
+ grid-column-end: 3;
+ text-align: justify;
+}
+
+.decision {
+ padding-top: 20pt;
+}
+
+.optionscellbutton {
+ font-family: "EB Garamond", serif !important;
+ font-optical-sizing: auto !important;
+ font-weight: normal !important;
+ font-style: normal !important;
+}
+
+.optionscellbutton div.disabled {
+ color: darkgray;
+}
+
+/* Mobile */
+@media (max-device-width: 1080px) {
+ body {
+  font-size: 45pt;
+ }
+
+ button {
+  font-size: 45pt;
+  padding: 30pt;
+ }
+
+ .options {
+  padding-top: 10pt;
+ }
+
+ .optionsgrid {
+  display: grid;
+  grid-template-columns: 200pt 1fr;
+  align-items: start;
+  gap: 10px;
+  width: 90%;
+ }
+
+ .optionscellbutton {
+  padding-top: 30pt;
+  width: 200pt;
+ }
+
+ .optionscellbutton div {
+  width: 180pt;
+  height: 100pt;
+  line-height: 100pt;
+  background: lightgray;
+  border: darkgray solid 5pt;
+  text-align: center;
+  font-weight: bold;
+ }
+
+ .optionscelltext {
+  padding-top: 30pt;
+  font-size: 45pt;
+ }
+}
+
+/* Desktop */
+@media (min-device-width: 1080px) {
+ body {
+  font-size: 16pt;
+ }
+
+ button {
+  font-size: 16pt;
+  padding: 5pt;
+ }
+
+ .options {
+  padding-top: 20pt;
+ }
+
+ .optionsgrid {
+  display: grid;
+  grid-template-columns: 100pt 1fr;
+  align-items: start;
+  gap: 10pt;
+  width: 90%;
+ }
+
+ .optionscellbutton {
+  padding-top: 5pt;
+  width: 100pt;
+ }
+
+ .optionscellbutton div {
+  width: 90pt;
+  height: 50pt;
+  line-height: 50pt;
+  background: lightgray;
+  border: darkgray solid 2pt;
+  text-align: center;
+  font-weight: bold;
+ }
+
+ .optionscelltext {
+  padding-top: 5pt;
+  font-size: 16pt;
+ }
 }

@@ -1,3 +1,5 @@
+/* License: Attribution-NonCommercial 4.0 International */
+
 const enableExtras = false;
 const enableSnarkyComment = false;
 

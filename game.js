@@ -1,7 +1,15 @@
 /* License: Attribution-NonCommercial 4.0 International */
 
-const enableExtras = false;
-const enableSnarkyComment = false;
+const urlParams = new URLSearchParams(window.location.search);
+
+function isUriParameterEnabled(parameter) {
+ var p = urlParams.get(parameter);
+ return p == "1" || p == "t"; 
+}
+
+const enableExtras = isUriParameterEnabled("enableExtras");
+const enableSnarkyComment = isUriParameterEnabled("enableSnarkyComment");
+const defaultId = parseInt(urlParams.get("id"));
 
 var state, stages, stateHistory;
 
@@ -34,8 +42,15 @@ function startGame() {
  stages = {};
  stateHistory = [];
 
- if (!state.id)
+ if (!state.id && defaultId != null) {
+  state.id = defaultId;
+  if (isNaN(state.id) || state.id < 1 || state.id > 64)
+   state.id = 0;
+ }
+
+ if (!state.id) {
   state.id = Math.trunc(Math.random() * 64) + 1;
+ }
 
  loadProfile(state.id, function() {
   stateHistory.push(JSON.parse(JSON.stringify(state)));

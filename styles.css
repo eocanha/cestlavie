@@ -81,10 +81,6 @@ footer hr {
  font-style: normal !important;
 }
 
-.optionscellbutton div.disabled {
- color: darkgray;
-}
-
 /* Mobile */
 @media (max-device-width: 1080px) {
  body {

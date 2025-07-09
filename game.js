@@ -79,15 +79,15 @@ function displayState() {
  var optionsHTML = "";
  optionsHTML += "<div class=\"optionsgrid\">";
  Object.getOwnPropertyNames(stage.options).forEach(function(id) {
-  optionsHTML += "<div class=\"optionscellbutton\"><div id=\"" + id + "\""
-   + (state.disabledOptions.includes(id) ? " class=\"disabled\""
-     : " onclick=\"javascript: playAction(this)\"") + ">"
-   + id + "</div></div><div class=\"optionscelltext\">"
+  optionsHTML += "<button type=button class=\"optionscellbutton\""
+   + (state.disabledOptions.includes(id) ? " disabled" : "" )
+   + " onclick=\"playAction('" + id + "')\">"
+   + id + "</button><div class=\"optionscelltext\">"
    + stage.options[id] + "</div>";
  });
  if (enableExtras) {
-  optionsHTML += "<div class=\"optionscellbutton\"><div id=\"undo\""
-  + " onclick=\"javascript: undo(this)\"/>UNDO</div></div><div class=\"optionscelltext\">"
+  optionsHTML += "<button class=\"optionscellbutton\""
+  + " onclick=\"undo()\">UNDO</button><div class=\"optionscelltext\">"
   + "Undo the last decision made</div>";
  }
  optionsHTML += "</div>";
@@ -388,10 +388,9 @@ function updateDisableOptions() {
  state.disabledOptions = disabledOptions;
 }
 
-function playAction(button) {
+function playAction(action) {
  stateHistory.push(JSON.parse(JSON.stringify(state)));
  var stageId = state.stageId;
- var action = button.id;
  console.log("Playing action (stage: " + stageId + ", action: " + action +")");
  switch (state.stageId) {
   case "S":

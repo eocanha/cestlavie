@@ -3,7 +3,7 @@ C'est La Vie! A Game of Social Life is an empathy-based privilege and oppression
 The activity builds on a role-playing game that explores multiple dimensions of poverty. The poverty simulation board game examined inequality across multiple domains, including access to social power, health care, housing, education, and occupational success throughout the lifespan. The simulation also examines the impact of inequality on health and well-being.
 This is an adaptation to HTML of the original role playing game created by Dr. Kosha D. Bramesfeld, from Ryerson University. The original materials can be found <a href="https://web.archive.org/web/20190904150452/http://drkimcase.com/intersectionality-game-cest-la-vie-the-game-of-social-life/" target="_blank">here</a>.
 The player is assigned a unique game character profile and has to take decisions to try to achieve the best possible life conditions as the game progresses. On each stage of the game, the player is presented with different options (some of them unavailable due to the circumstances). Just press the button of the option you want to choose.
-In some of the stages, the player can get into debt to get extra money. You can press the DEBT button at any moment before chosing and option for that stage.
+In some of the stages, the player can get into debt to get extra money. You can press the DEBT button at any moment before choosing an option for that stage.
 A good life depends on the mix of pure chance and good decisions... when you can take them. Best luck!
 [A] Continue
 ---

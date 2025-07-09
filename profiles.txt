@@ -71,7 +71,7 @@ bonuses: 2
 illness: 0
 ---
 id: 10
-profile: Your character identifies as a heterosexual male. Your character is a citizen by birth. In addition, your character identifies as an Indigineous person/member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual male. Your character is a citizen by birth. In addition, your character identifies as an Indigenous person/member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: MQ
 money: 20
@@ -119,7 +119,7 @@ bonuses: 0
 illness: 0
 ---
 id: 16
-profile: Your character identifies as a bisexual female. Your character is a citizen by birth and your character identifies as an Indigineous person / member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 40 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual female. Your character is a citizen by birth and your character identifies as an Indigenous person / member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 40 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NQP
 money: 40
@@ -183,7 +183,7 @@ bonuses: 1
 illness: 0
 ---
 id: 24
-profile: Your character identifies as a lesbian female. She is a citizen by birth whose family is originally from the Carribean. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a lesbian female. She is a citizen by birth whose family is originally from the Caribbean. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NQPS
 money: 40
@@ -207,7 +207,7 @@ bonuses: 0
 illness: 0
 ---
 id: 27
-profile: Your character identifies as a transgendered male (was born female, but identifies as male). Your character’s family members are naturalized citizens who imigrated from Korea. English is not spoken in the home. Your character has a weak social support system. Your character begins the game with 15 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a transgendered male (was born female, but identifies as male). Your character’s family members are naturalized citizens who immigrated from Korea. English is not spoken in the home. Your character has a weak social support system. Your character begins the game with 15 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: QP
 money: 15

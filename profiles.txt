@@ -1,5 +1,5 @@
 id: 1
-profile: Your character identifies as a heterosexual male. Your character’s family members are originally from China but are now naturalized citizens. Your character has a strong social support system. Your character begins the game with 10 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). Your character’s family members are originally from China but are now naturalized citizens. Your character has a strong social support system. Your character begins the game with 10 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: MQ
 money: 10
@@ -7,7 +7,7 @@ bonuses: 2
 illness: 0
 ---
 id: 2
-profile: Your character identifies as a gay male. Your character is White (of European descent). Your character’s family members are citizens by birth. Your character has a weak social support system. Your character begins the game with 80 money boxes and 5 bonuses. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). Your character is White (of European descent). Your character’s family members are citizens by birth. Your character has a weak social support system. Your character begins the game with 80 money boxes and 5 bonuses. Your character is able to vote.
 vote: yes
 social: P
 money: 80
@@ -15,7 +15,7 @@ bonuses: 5
 illness: 0
 ---
 id: 3
-profile: Your character identifies as a heterosexual female. She is a recent immigrant from Iran who is not yet a citizen. English is not spoken in the home. Your character has a strong social support system. Your character begins the game with 40 money boxes and 0 bonuses. Your character is not able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is a recent immigrant from Iran who is not yet a citizen. English is not spoken in the home. Your character has a strong social support system. Your character begins the game with 40 money boxes and 0 bonuses. Your character is not able to vote.
 vote: no
 social: NQS
 money: 40
@@ -23,7 +23,7 @@ bonuses: 0
 illness: 0
 ---
 id: 4
-profile: Your character identifies as a heterosexual female. She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 60 money boxes and 5 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 60 money boxes and 5 bonuses. Your character is able to vote.
 vote: yes
 social: NW
 money: 60
@@ -31,7 +31,7 @@ bonuses: 5
 illness: 0
 ---
 id: 5
-profile: Your character identifies as a bisexual male. He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: P
 money: 20
@@ -39,7 +39,7 @@ bonuses: 3
 illness: 0
 ---
 id: 6
-profile: Your character identifies as a heterosexual female. Your character is a citizen by birth whose family is originally from China (multiple generations ago). Your character has a weak social support system. Your character begins the game with 20 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). Your character is a citizen by birth whose family is originally from China (multiple generations ago). Your character has a weak social support system. Your character begins the game with 20 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NQ
 money: 20
@@ -47,7 +47,7 @@ bonuses: 1
 illness: 0
 ---
 id: 7
-profile: Your character identifies as a heterosexual male. He is an immigrant from China who has become a naturalized citizen. Your character has a disability. Your character has a strong social support system. Your character begins the game with 60 money boxes and 4 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is an immigrant from China who has become a naturalized citizen. Your character has a disability. Your character has a strong social support system. Your character begins the game with 60 money boxes and 4 bonuses. Your character is able to vote.
 vote: yes
 social: MQS
 money: 60
@@ -55,7 +55,7 @@ bonuses: 4
 illness: 0
 ---
 id: 8
-profile: Your character identifies as a heterosexual male. He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: MS
 money: 20
@@ -63,7 +63,7 @@ bonuses: 3
 illness: 0
 ---
 id: 9
-profile: Your character identifies as a bisexual male. He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 20 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 20 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: PS
 money: 20
@@ -71,7 +71,7 @@ bonuses: 2
 illness: 0
 ---
 id: 10
-profile: Your character identifies as a heterosexual male. Your character is a citizen by birth. In addition, your character identifies as an Indigenous person/member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). Your character is a citizen by birth. In addition, your character identifies as an Indigenous person/member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: MQ
 money: 20
@@ -79,7 +79,7 @@ bonuses: 3
 illness: 0
 ---
 id: 11
-profile: Your character identifies as a heterosexual female. She is a citizen by birth whose family is originally from Pakistan. Your character has a disability. Your character has a strong social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is a citizen by birth whose family is originally from Pakistan. Your character has a disability. Your character has a strong social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NQS
 money: 15
@@ -87,7 +87,7 @@ bonuses: 1
 illness: 0
 ---
 id: 12
-profile: Your character identifies as a heterosexual male. He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 90 money boxes and 5 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 90 money boxes and 5 bonuses. Your character is able to vote.
 vote: yes
 social: MS
 money: 90
@@ -95,7 +95,7 @@ bonuses: 5
 illness: 0
 ---
 id: 13
-profile: Your character identifies as a gay male. He is White (of European descent) and a Canadian Citizen. Your character has a disability. Your character has a weak social support system. Your character begins the game with 70 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a Canadian Citizen. Your character has a disability. Your character has a weak social support system. Your character begins the game with 70 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: PS
 money: 70
@@ -103,7 +103,7 @@ bonuses: 3
 illness: 0
 ---
 id: 14
-profile: Your character identifies as a lesbian female. Your character is a citizen by birth whose family is originally from Egypt. Your character has a strong social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). Your character is a citizen by birth whose family is originally from Egypt. Your character has a strong social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: NQP
 money: 5
@@ -111,7 +111,7 @@ bonuses: 0
 illness: 0
 ---
 id: 15
-profile: Your character identifies as a lesbian female. Your character is a citizen by birth whose family is originally from Bhutan (in South Asia). Your character has a disability. Your character has a weak social support system. Your character begins the game with 20 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). Your character is a citizen by birth whose family is originally from Bhutan (in South Asia). Your character has a disability. Your character has a weak social support system. Your character begins the game with 20 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: NQPS
 money: 20
@@ -119,7 +119,7 @@ bonuses: 0
 illness: 0
 ---
 id: 16
-profile: Your character identifies as a bisexual female. Your character is a citizen by birth and your character identifies as an Indigenous person / member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 40 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender woman (was assigned female at birth and defines herself as a woman). Your character is a citizen by birth and your character identifies as an Indigenous person / member of an Aboriginal population. Your character has a strong social support system. Your character begins the game with 40 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NQP
 money: 40
@@ -127,7 +127,7 @@ bonuses: 2
 illness: 0
 ---
 id: 17
-profile: Your character identifies as a heterosexual male. He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 15 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 15 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: MS
 money: 15
@@ -135,7 +135,7 @@ bonuses: 3
 illness: 0
 ---
 id: 18
-profile: Your character identifies as a gay male. He is a citizen by birth whose family is originally from India. Your character has a weak social support system. Your character begins the game with 10 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). He is a citizen by birth whose family is originally from India. Your character has a weak social support system. Your character begins the game with 10 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: QP
 money: 10
@@ -143,7 +143,7 @@ bonuses: 0
 illness: 0
 ---
 id: 19
-profile: Your character identifies as a heterosexual female. She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: NW
 money: 20
@@ -151,7 +151,7 @@ bonuses: 3
 illness: 0
 ---
 id: 20
-profile: Your character identifies as a bisexual female. She is a citizen by birth whose family is originally from the Philippines. Your character has a disability. Your character has a weak social support system. Your character begins the game with 15 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender woman (was assigned female at birth and defines herself as a woman). She is a citizen by birth whose family is originally from the Philippines. Your character has a disability. Your character has a weak social support system. Your character begins the game with 15 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: NQPS
 money: 15
@@ -159,7 +159,7 @@ bonuses: 0
 illness: 0
 ---
 id: 21
-profile: Your character identifies as a heterosexual female. She is a recent immigrant from China who does not yet hold citizenship. Your character has a chronic condition that must be managed. Your character has a strong social support system. Your character begins the game with 0 money boxes and 0 bonuses. Your character is not able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is a recent immigrant from China who does not yet hold citizenship. Your character has a chronic condition that must be managed. Your character has a strong social support system. Your character begins the game with 0 money boxes and 0 bonuses. Your character is not able to vote.
 vote: no
 social: NQS
 money: 0
@@ -167,7 +167,7 @@ bonuses: 0
 illness: 3
 ---
 id: 22
-profile: Your character identifies as a bisexual male. Your character’s family members are naturalized citizens. However, English is not spoken in the home. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender man (was assigned male at birth and defines himself as a man). Your character’s family members are naturalized citizens. However, English is not spoken in the home. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: QPS
 money: 30
@@ -175,7 +175,7 @@ bonuses: 2
 illness: 0
 ---
 id: 23
-profile: Your character identifies as a gay male. He is Black and a citizen by birth. Your character has a disability. Your character has a weak social support system. Your character begins the game with 40 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). He is Black and a citizen by birth. Your character has a disability. Your character has a weak social support system. Your character begins the game with 40 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: QPS
 money: 40
@@ -183,7 +183,7 @@ bonuses: 1
 illness: 0
 ---
 id: 24
-profile: Your character identifies as a lesbian female. She is a citizen by birth whose family is originally from the Caribbean. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). She is a citizen by birth whose family is originally from the Caribbean. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NQPS
 money: 40
@@ -191,7 +191,7 @@ bonuses: 1
 illness: 0
 ---
 id: 25
-profile: Your character identifies as a lesbian female. She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 10 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 10 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NW
 money: 10
@@ -199,7 +199,7 @@ bonuses: 2
 illness: 0
 ---
 id: 26
-profile: Your character identifies as a lesbian female. She is White (of European descent) and a citizen by birth. Your character has a weak social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a weak social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: NP
 money: 5
@@ -207,7 +207,7 @@ bonuses: 0
 illness: 0
 ---
 id: 27
-profile: Your character identifies as a transgendered male (was born female, but identifies as male). Your character’s family members are naturalized citizens who immigrated from Korea. English is not spoken in the home. Your character has a weak social support system. Your character begins the game with 15 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a transgender man (was assigned female at birth and defines himself as a man). Your character’s family members are naturalized citizens who immigrated from Korea. English is not spoken in the home. Your character has a weak social support system. Your character begins the game with 15 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: QP
 money: 15
@@ -215,7 +215,7 @@ bonuses: 0
 illness: 0
 ---
 id: 28
-profile: Your character identifies as a heterosexual female. She is White / Hispanic and a citizen by birth. Your character has a strong social support system. Your character begins the game with 10 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White / Hispanic and a citizen by birth. Your character has a strong social support system. Your character begins the game with 10 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NQ
 money: 10
@@ -223,7 +223,7 @@ bonuses: 1
 illness: 0
 ---
 id: 29
-profile: Your character identifies as a heterosexual female. She is Black and a citizen by birth. Your character has a strong social support system. Your character begins the game with 50 money boxes and 4 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is Black and a citizen by birth. Your character has a strong social support system. Your character begins the game with 50 money boxes and 4 bonuses. Your character is able to vote.
 vote: yes
 social: NQ
 money: 50
@@ -231,7 +231,7 @@ bonuses: 4
 illness: 0
 ---
 id: 30
-profile: Your character identifies as a lesbian female. She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: NP
 money: 30
@@ -239,7 +239,7 @@ bonuses: 3
 illness: 0
 ---
 id: 31
-profile: Your character identifies as a heterosexual female. She is a citizen by birth whose family is originally from the Philippines. Your character has a strong social support system. Your character begins the game with 20 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is a citizen by birth whose family is originally from the Philippines. Your character has a strong social support system. Your character begins the game with 20 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NQ
 money: 20
@@ -247,7 +247,7 @@ bonuses: 2
 illness: 0
 ---
 id: 32
-profile: Your character identifies as a heterosexual male. He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 4 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 4 bonuses. Your character is able to vote.
 vote: yes
 social: MS
 money: 40
@@ -255,7 +255,7 @@ bonuses: 4
 illness: 0
 ---
 id: 33
-profile: Your character identifies as a heterosexual male. He is Black and a citizen by birth. Your character has a chronic health condition that must be managed. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is Black and a citizen by birth. Your character has a chronic health condition that must be managed. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: MQS
 money: 30
@@ -263,7 +263,7 @@ bonuses: 2
 illness: 3
 ---
 id: 34
-profile: Your character identifies as a heterosexual male. He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 100 money boxes and 7 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 100 money boxes and 7 bonuses. Your character is able to vote.
 vote: yes
 social: MV
 money: 100
@@ -271,7 +271,7 @@ bonuses: 7
 illness: 0
 ---
 id: 35
-profile: Your character identifies as a bisexual female. She is White (of European descent) and a citizen by birth. Your character has a weak social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a weak social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NP
 money: 15
@@ -279,7 +279,7 @@ bonuses: 1
 illness: 0
 ---
 id: 36
-profile: Your character identifies as a bisexual male. He is an immigrant from China whose family members are naturalized citizens. English is not spoken in the home. Your character has a disability. Your character has a weak social support system. Your character begins the game with 20 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender man (was assigned male at birth and defines himself as a man). He is an immigrant from China whose family members are naturalized citizens. English is not spoken in the home. Your character has a disability. Your character has a weak social support system. Your character begins the game with 20 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: QPS
 money: 20
@@ -287,7 +287,7 @@ bonuses: 0
 illness: 0
 ---
 id: 37
-profile: Your character identifies as a heterosexual male. He is White / Hispanic and a citizen by birth. Your character has a strong social support system. Your character begins the game with 40 money boxes and 5 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White / Hispanic and a citizen by birth. Your character has a strong social support system. Your character begins the game with 40 money boxes and 5 bonuses. Your character is able to vote.
 vote: yes
 social: MV
 money: 40
@@ -295,7 +295,7 @@ bonuses: 5
 illness: 0
 ---
 id: 38
-profile: Your character identifies as a heterosexual male. Your character is a citizen by birth whose family is originally from China. Your character has a weak social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). Your character is a citizen by birth whose family is originally from China. Your character has a weak social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: MQ
 money: 30
@@ -303,7 +303,7 @@ bonuses: 3
 illness: 0
 ---
 id: 39
-profile: Your character identifies as a heterosexual female. She is a citizen by birth whose family is originally from Central America. Your character has a disability. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is a citizen by birth whose family is originally from Central America. Your character has a disability. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NQS
 money: 30
@@ -311,7 +311,7 @@ bonuses: 2
 illness: 0
 ---
 id: 40
-profile: Your character identifies as a gay male. He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 15 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 15 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: P
 money: 15
@@ -319,7 +319,7 @@ bonuses: 3
 illness: 0
 ---
 id: 41
-profile: Your character identifies as a heterosexual male. He is White and a recent immigrant from Russia who does not yet hold citizenship. Your character has a weak social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is not able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White and a recent immigrant from Russia who does not yet hold citizenship. Your character has a weak social support system. Your character begins the game with 20 money boxes and 3 bonuses. Your character is not able to vote.
 vote: no
 social: MV
 money: 20
@@ -327,7 +327,7 @@ bonuses: 3
 illness: 0
 ---
 id: 42
-profile: Your character identifies as a heterosexual female. She is White (of European descent) and a citizen by birth. Your character has a chronic health condition that must be managed. Your character has a strong social support system. Your character begins the game with 20 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a chronic health condition that must be managed. Your character has a strong social support system. Your character begins the game with 20 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NS
 money: 20
@@ -335,7 +335,7 @@ bonuses: 1
 illness: 3
 ---
 id: 43
-profile: Your character identifies as a gay male. He is is a citizen by birth whose family is originally from China. Your character has a strong social support system. Your character begins the game with 20 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). He is is a citizen by birth whose family is originally from China. Your character has a strong social support system. Your character begins the game with 20 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: QP
 money: 20
@@ -343,7 +343,7 @@ bonuses: 2
 illness: 0
 ---
 id: 44
-profile: Your character identifies as a lesbian female. Your character is White (of Hispanic decent) and is a recent immigrant from Mexico. English is not spoken in the home. Your character has a strong social support system. Your character begins the game with 20 money boxes and 0 bonuses. Your character is not able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). Your character is White (of Hispanic decent) and is a recent immigrant from Mexico. English is not spoken in the home. Your character has a strong social support system. Your character begins the game with 20 money boxes and 0 bonuses. Your character is not able to vote.
 vote: no
 social: NPS
 money: 20
@@ -351,7 +351,7 @@ bonuses: 0
 illness: 0
 ---
 id: 45
-profile: Your character identifies as a transgendered male (was born female, but identifies as male). Your character is a recent immigrant from Algeria that is not yet a citizen. Your character has a strong social support system. Your character begins the game with 50 money boxes and 3 bonuses. Your character is not able to vote.
+profile: Your character identifies as a transgender man (was assigned female at birth and defines himself as a man). Your character is a recent immigrant from Algeria that is not yet a citizen. Your character has a strong social support system. Your character begins the game with 50 money boxes and 3 bonuses. Your character is not able to vote.
 vote: no
 social: QP
 money: 50
@@ -359,7 +359,7 @@ bonuses: 3
 illness: 0
 ---
 id: 46
-profile: Your character identifies as a heterosexual male. He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 15 money boxes and 5 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 15 money boxes and 5 bonuses. Your character is able to vote.
 vote: yes
 social: MV
 money: 15
@@ -367,7 +367,7 @@ bonuses: 5
 illness: 0
 ---
 id: 47
-profile: Your character identifies as a transgendered female (was born male, but identifies as female). Your character is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a transgender woman (was assigned male at birth and defines herself as a woman). Your character is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: NPS
 money: 15
@@ -375,7 +375,7 @@ bonuses: 1
 illness: 0
 ---
 id: 48
-profile: Your character identifies as a transgendered female (was born male, but identifies as female). Your character is a citizen by birth whose family is originally from Bangladesh. Your character has a disability. Your character has a strong social support system. Your character begins the game with 0 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a transgender woman (was assigned male at birth and defines herself as a woman). Your character is a citizen by birth whose family is originally from Bangladesh. Your character has a disability. Your character has a strong social support system. Your character begins the game with 0 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: NQPS
 money: 0
@@ -383,7 +383,7 @@ bonuses: 0
 illness: 0
 ---
 id: 49
-profile: Your character identifies as a heterosexual female. Your character is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a weak social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). Your character is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a weak social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: NS
 money: 5
@@ -391,7 +391,7 @@ bonuses: 0
 illness: 0
 ---
 id: 50
-profile: Your character identifies as a bisexual female. She is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a bisexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 40 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NPS
 money: 40
@@ -399,7 +399,7 @@ bonuses: 2
 illness: 0
 ---
 id: 51
-profile: Your character identifies as a heterosexual female. She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 30 money boxes and 4 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a strong social support system. Your character begins the game with 30 money boxes and 4 bonuses. Your character is able to vote.
 vote: yes
 social: NW
 money: 30
@@ -407,7 +407,7 @@ bonuses: 4
 illness: 0
 ---
 id: 52
-profile: Your character identifies as a transgendered female (was born male, but identifies as female). You character is Black and a recent immigrant from Europe who does not yet hold Canadian Citizenship. Your character has a strong social support system. Your character begins the game with 15 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a transgender woman (was assigned male at birth and defines herself as a woman). You character is Black and a recent immigrant from Europe who does not yet hold Canadian Citizenship. Your character has a strong social support system. Your character begins the game with 15 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NQP
 money: 15
@@ -415,7 +415,7 @@ bonuses: 2
 illness: 0
 ---
 id: 53
-profile: Your character identifies as a gay male. He is Black and a citizen by birth. Your character has a disability. Your character has a weak social support system. Your character begins the game with 10 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). He is Black and a citizen by birth. Your character has a disability. Your character has a weak social support system. Your character begins the game with 10 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: PS
 money: 10
@@ -423,7 +423,7 @@ bonuses: 0
 illness: 0
 ---
 id: 54
-profile: Your character identifies as a transgendered male (was born female, but identifies as male). Your character is White and an immigrant from Europe who holds citizenship. Your character has a weak social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a transgender man (was assigned female at birth and defines himself as a man). Your character is White and an immigrant from Europe who holds citizenship. Your character has a weak social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: P
 money: 30
@@ -431,7 +431,7 @@ bonuses: 3
 illness: 0
 ---
 id: 55
-profile: Your character identifies as a heterosexual female. She is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 30 money boxes and 3 bonuses. Your character is able to vote.
 vote: yes
 social: NS
 money: 30
@@ -439,7 +439,7 @@ bonuses: 3
 illness: 0
 ---
 id: 56
-profile: Your character identifies as a heterosexual male. Your character is a citizen by birthy whose family is originally from Japan. Your character has a disability. Your character has a weak social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). Your character is a citizen by birthy whose family is originally from Japan. Your character has a disability. Your character has a weak social support system. Your character begins the game with 15 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: MQS
 money: 15
@@ -447,7 +447,7 @@ bonuses: 1
 illness: 0
 ---
 id: 57
-profile: Your character identifies as a lesbian female. She is a citizen by birth whose family is originally from India. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). She is a citizen by birth whose family is originally from India. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: NQP
 money: 30
@@ -455,7 +455,7 @@ bonuses: 2
 illness: 0
 ---
 id: 58
-profile: Your character identifies as a heterosexual female. She is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 50 money boxes and 4 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender woman (was assigned female at birth and defines herself as a woman). She is White (of European descent) and a citizen by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 50 money boxes and 4 bonuses. Your character is able to vote.
 vote: yes
 social: NS
 money: 50
@@ -463,7 +463,7 @@ bonuses: 4
 illness: 0
 ---
 id: 59
-profile: Your character identifies as a lesbian female. Your character is White (of European descent) and a citizen by birthy. Your character has a disability. Your character has a strong social support system. Your character begins the game with 10 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a lesbian cisgender woman (was assigned female at birth and defines herself as a woman). Your character is White (of European descent) and a citizen by birthy. Your character has a disability. Your character has a strong social support system. Your character begins the game with 10 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: NPS
 money: 10
@@ -471,7 +471,7 @@ bonuses: 0
 illness: 0
 ---
 id: 60
-profile: Your character identifies as a transgendered male (was born female, but identifies as male). Your character is White and an immigrant from Russia who holds citizenship. Your character has a chronic condition that must be managed. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
+profile: Your character identifies as a transgender male  was assigned female at birth and defines himself as a man). Your character is White and an immigrant from Russia who holds citizenship. Your character has a chronic condition that must be managed. Your character has a strong social support system. Your character begins the game with 30 money boxes and 2 bonuses. Your character is able to vote.
 vote: yes
 social: PS
 money: 30
@@ -479,7 +479,7 @@ bonuses: 2
 illness: 3
 ---
 id: 61
-profile: Your character identifies as a heterosexual male. Your character is Black and a citizen by birth. Your character has a weak social support system. Your character begins the game with 60 money boxes and 4 bonuses. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). Your character is Black and a citizen by birth. Your character has a weak social support system. Your character begins the game with 60 money boxes and 4 bonuses. Your character is able to vote.
 vote: yes
 social: MQ
 money: 60
@@ -487,7 +487,7 @@ bonuses: 4
 illness: 0
 ---
 id: 62
-profile: Your character identifies as a transgendered female (was born male, but identifies as female). Your character is White and a recent immigrant from Europe. Your character has a strong social support system. Your character begins the game with 50 money boxes and 3 bonuses. Your character is not able to vote.
+profile: Your character identifies as a transgender woman (was assigned male at birth and defines herself as a woman). Your character is White and a recent immigrant from Europe. Your character has a strong social support system. Your character begins the game with 50 money boxes and 3 bonuses. Your character is not able to vote.
 vote: no
 social: NP
 money: 50
@@ -495,7 +495,7 @@ bonuses: 3
 illness: 0
 ---
 id: 63
-profile: Your character identifies as a heterosexual male. He is an immigrant from Nepal who holds citizenship by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 10 money boxes and 1 bonus. Your character is able to vote.
+profile: Your character identifies as a heterosexual cisgender man (was assigned male at birth and defines himself as a man). He is an immigrant from Nepal who holds citizenship by birth. Your character has a disability. Your character has a strong social support system. Your character begins the game with 10 money boxes and 1 bonus. Your character is able to vote.
 vote: yes
 social: MQS
 money: 10
@@ -503,7 +503,7 @@ bonuses: 1
 illness: 0
 ---
 id: 64
-profile: Your character identifies as a gay male. He is a citizen by birth whose family is originally from Sri Lanka. Your character has a disability. Your character has a weak social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
+profile: Your character identifies as a gay cisgender man (was assigned male at birth and defines himself as a man). He is a citizen by birth whose family is originally from Sri Lanka. Your character has a disability. Your character has a weak social support system. Your character begins the game with 5 money boxes and 0 bonuses. Your character is able to vote.
 vote: yes
 social: QPS
 money: 5

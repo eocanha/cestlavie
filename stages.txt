@@ -341,9 +341,9 @@ id: E2
 Social Groups Decoded
 V = heterosexual, White, cisgender male, abled, not poor
 W = heterosexual, White, cisgender female, abled, not poor
-M = cisgendered, heterosexual male
+M = cisgender, heterosexual male
 N = female
-P = lesbian, gay, bisexual, transgendered, transsexual
+P = lesbian, gay, bisexual, transgender, transsexual
 Q = racial/ethnic minority
 S = physical, cognitive, mental, sensory, emotional, or developmental disability –and/or- English as a second language (ESL)
 [A] Play again
